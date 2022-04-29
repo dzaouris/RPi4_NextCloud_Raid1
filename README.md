@@ -17,4 +17,9 @@ Installing the heatsinks is an optional step and it is pretty staightforward. Ch
 
 <img src="https://user-images.githubusercontent.com/19223395/148088819-ab996d80-66f4-4a8c-98ba-2c5652550d6b.jpg" width="250" height="250">
 
-### Flashihng SD Card
+### Flashing SD Card
+I have used the official Raspberry Pi Imager in order to flash the SD card used in the Raspberry Pi. This will work with Windows, macOS and Ubuntu. You can download Rasberry Pi Imager from the Rarsberry Pi website ([Link](https://www.raspberrypi.com/software/)). Once you download and install the imager, go ahead and run it. You should see the following window appearing on your desktop.
+
+<img src="https://www.raspberrypi.org/app/uploads/2020/03/RPI_intro-e1583228263677.png" width="250">
+
+The next step is to choose an Operating system (press the button on the left of the Imager window). I have chosen the Lite version of Raspbian. Next make sure you have connected the SD card to your computer and by pressing the middle button on the Imager window choose the appropriate option (CAUTION: Make sure you choose the SD card and not any other hard drive!!!). The final step is to actually flash the card. You can achieve that by pressing the button on the righthand side of the Imager window. When the process finishes, a message will appear on your screen stating that Raspbian has been written to the Mass Storage Device. At this point you can remove the SD card from your computer and install it in the Raspberry Pi. 
